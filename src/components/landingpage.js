@@ -31,7 +31,7 @@ class Landing extends Component {
           </Cell>
           {/* <Cell col={3}></Cell> */}
 
-          <Cell col={12}>
+          <Cell col={12} hidePhone>
             <div className="titleHome">
               <p>
                 <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
