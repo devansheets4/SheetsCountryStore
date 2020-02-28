@@ -165,12 +165,12 @@ button {
 
 #mobileLogo {
   height: 50vh;
-  margin-bottom: -25px;
+  margin-bottom: 5px;
 }
 
 .mobileMenuHome a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
