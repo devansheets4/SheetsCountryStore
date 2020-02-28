@@ -38,7 +38,7 @@ class Landing extends Component {
                 <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/gear">Gear</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/about">About Us</a>
+                <a href="/about">About</a>
               </p>
             </div>
           </Cell>
