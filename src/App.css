@@ -92,6 +92,10 @@ header .header-phone h3 {
 .titleHome a:hover {
   color: red;
 }
+
+button {
+  width: 100%;
+}
 /*! ----------------------End of Landing Page------------------------*/
 
 .secondary-grid {

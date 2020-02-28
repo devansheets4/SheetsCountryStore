@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { Grid, Cell, Footer, FooterSection, FooterLinkList } from "react-mdl";
+import {
+  Grid,
+  Cell,
+  Footer,
+  FooterSection,
+  FooterLinkList,
+  Button
+} from "react-mdl";
 import logo from "../assets/logo.jpg";
 import Bridge from "../assets/Bridge.PNG";
 
@@ -29,7 +36,6 @@ class Landing extends Component {
               <img src={Bridge}></img>
             </div>
           </Cell>
-          {/* <Cell col={3}></Cell> */}
 
           <Cell col={12} hidePhone>
             <div className="titleHome">
@@ -40,6 +46,23 @@ class Landing extends Component {
                 <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/about">About Us</a>
               </p>
+            </div>
+          </Cell>
+
+          <Cell col={12} hideDesktop>
+            <div className="mobileMenuHome">
+              <Button raised colored>
+                River Access
+              </Button>
+              <Button raised colored>
+                River Gear
+              </Button>
+              <Button raised colored>
+                Deli Menu
+              </Button>
+              <Button raised colored>
+                About us
+              </Button>
             </div>
           </Cell>
         </Grid>
