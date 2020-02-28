@@ -15,6 +15,17 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
+          <Cell col={12} hidePhone hideTablet>
+            <div className="titleHome">
+              <p>
+                <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/gear">Gear</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/about">About</a>
+              </p>
+            </div>
+          </Cell>
           <Cell col={4} hidePhone hideTablet>
             <div className="logo">
               <img src={logo}></img>
@@ -28,18 +39,6 @@ class Landing extends Component {
           <Cell col={8} hidePhone hideTablet>
             <div className="logo2">
               <img src={Bridge}></img>
-            </div>
-          </Cell>
-
-          <Cell col={12} hidePhone hideTablet>
-            <div className="titleHome">
-              <p>
-                <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/gear">Gear</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/about">About</a>
-              </p>
             </div>
           </Cell>
 
