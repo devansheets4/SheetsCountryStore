@@ -15,23 +15,23 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={4} hidePhone>
+          <Cell col={4} hidePhone hideTablet>
             <div className="logo">
               <img src={logo}></img>
             </div>
           </Cell>
-          <Cell phone={12} hideDesktop hideTablet id="mobileLogo">
+          <Cell phone={12} tablet={12} hideDesktop id="mobileLogo">
             <div className="logo">
               <img src={logo}></img>
             </div>
           </Cell>
-          <Cell col={8} hidePhone>
+          <Cell col={8} hidePhone hideTablet>
             <div className="logo2">
               <img src={Bridge}></img>
             </div>
           </Cell>
 
-          <Cell col={12} hidePhone>
+          <Cell col={12} hidePhone hideTablet>
             <div className="titleHome">
               <p>
                 <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
@@ -43,7 +43,7 @@ class Landing extends Component {
             </div>
           </Cell>
 
-          <Cell phone={12} hideDesktop>
+          <Cell phone={12} tablet={12} hideDesktop>
             <div className="mobileMenuHome">
               <Button raised>
                 <a href="/access">River Access</a>
