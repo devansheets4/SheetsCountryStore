@@ -24,7 +24,7 @@ class Landing extends Component {
               <img src={logo}></img>
             </div>
           </Cell>
-          <Cell col={8} phone={12}>
+          <Cell col={8} hidePhone>
             <div className="logo2">
               <img src={Bridge}></img>
             </div>
