@@ -163,6 +163,11 @@ button {
   margin-top: -10vh;
 }
 
+.mobileLogo {
+  height: 50vh;
+  margin-bottom: -100px;
+}
+
 .logo img {
   height: 100%;
   width: 100%;

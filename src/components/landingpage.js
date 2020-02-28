@@ -15,18 +15,12 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          {/* <Cell col={12}>
-            <div className="title">
-              <h1>Sheets' Country Store</h1>
-              <p>
-                <a href="/">Home</a> | <a href="/access">River Access</a> |{" "}
-                <a href="/gear">Gear</a> | <a href="/deli">Deli</a> |{" "}
-                <a href="/about">About Us</a>
-              </p>
+          <Cell col={4} hidePhone>
+            <div className="logo">
+              <img src={logo}></img>
             </div>
-          </Cell> */}
-
-          <Cell col={4} phone={12}>
+          </Cell>
+          <Cell phone={12} hideDesktop id="mobileLogo">
             <div className="logo">
               <img src={logo}></img>
             </div>
@@ -49,7 +43,7 @@ class Landing extends Component {
             </div>
           </Cell>
 
-          <Cell col={12} hideDesktop>
+          <Cell phone={12} hideDesktop>
             <div className="mobileMenuHome">
               <Button raised colored>
                 River Access
