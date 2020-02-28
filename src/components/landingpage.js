@@ -20,7 +20,7 @@ class Landing extends Component {
               <img src={logo}></img>
             </div>
           </Cell>
-          <Cell phone={12} hideDesktop id="mobileLogo">
+          <Cell phone={12} hideDesktop hideTablet id="mobileLogo">
             <div className="logo">
               <img src={logo}></img>
             </div>

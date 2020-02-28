@@ -165,7 +165,8 @@ button {
 
 #mobileLogo {
   height: 50vh;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  margin-top: -50px;
 }
 
 .mobileMenuHome a {
