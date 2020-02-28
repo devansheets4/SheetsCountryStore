@@ -157,7 +157,7 @@ button {
 .logo {
   height: 100vh;
   width: 100%;
-  margin-top: -10vh;
+  margin-top: -20vh;
 }
 
 #mobileLogo {
@@ -180,6 +180,7 @@ button {
 .logo2 {
   height: 75vh;
   width: 98%;
+  margin-top: -5vh;
 }
 
 .logo2 img {
@@ -200,3 +201,11 @@ button {
   height: min-content;
   position: sticky;
 } */
+
+@media screen and (max-width: 1324px) {
+  .titleHome a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+  }
+}
