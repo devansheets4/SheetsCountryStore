@@ -9,13 +9,19 @@ import {
 } from "react-mdl";
 import logo from "../assets/logo.jpg";
 import Bridge from "../assets/Bridge.PNG";
+import SheetsCircle from "../assets/SheetsCircle.png";
 
 class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={12} hidePhone hideTablet>
+          <Cell col={3} hidePhone hideTablet>
+            <div className="logo">
+              <img src={SheetsCircle}></img>
+            </div>
+          </Cell>
+          <Cell col={9} hidePhone hideTablet>
             <div className="titleHome">
               <p>
                 <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
@@ -25,20 +31,12 @@ class Landing extends Component {
                 <a href="/about">About</a>
               </p>
             </div>
+            <hr></hr>
           </Cell>
-          <Cell col={4} hidePhone hideTablet>
-            <div className="logo">
-              <img src={logo}></img>
-            </div>
-          </Cell>
+
           <Cell phone={12} tablet={12} hideDesktop id="mobileLogo">
             <div className="logoMobile">
               <img src={logo}></img>
-            </div>
-          </Cell>
-          <Cell col={8} hidePhone hideTablet>
-            <div className="logo2">
-              <img src={Bridge}></img>
             </div>
           </Cell>
 
