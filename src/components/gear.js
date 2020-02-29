@@ -37,19 +37,19 @@ class Gear extends Component {
             <hr></hr>
           </Cell>
 
-          <Cell col={4} hideTablet phone={6}>
+          <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
               <img src={blackshirt}></img>
             </div>
           </Cell>
 
-          <Cell col={4} hideTablet phone={6}>
+          <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
               <img src={shirtrack}></img>
             </div>
           </Cell>
 
-          <Cell col={4} hideTablet phone={6}>
+          <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
               <img src={whiteshirt}></img>
             </div>

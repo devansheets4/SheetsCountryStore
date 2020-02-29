@@ -163,6 +163,10 @@ hr {
   margin-top: -50px;
 }
 
+.mobileMenuHome {
+  margin-left: -25px;
+}
+
 .mobileMenuHome a {
   text-decoration: none;
   color: black;
@@ -178,7 +182,7 @@ hr {
   height: 100%;
   width: 90%;
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 5px;
 }
 /*! ----------------------River Gear / Outfitters Page-------------------------- */
 

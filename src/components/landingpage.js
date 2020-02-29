@@ -45,12 +45,18 @@ class Landing extends Component {
               <Button raised colored>
                 <a href="/access">River Access</a>
               </Button>
+              <br></br>
+              <br></br>
               <Button raised colored>
                 <a href="/gear">River Gear</a>
               </Button>
+              <br></br>
+              <br></br>
               <Button raised colored>
                 <a href="/deli">Deli Menu</a>
               </Button>
+              <br></br>
+              <br></br>
               <Button raised colored>
                 <a href="/about">About Us</a>
               </Button>
