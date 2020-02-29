@@ -188,7 +188,7 @@ hr {
   text-align: center;
 }
 
-.riverGear h1 {
+.riverGear p {
   text-align: center;
   letter-spacing: 1.5rem;
   margin-left: -100px;
@@ -196,6 +196,7 @@ hr {
   font-family: "Zhi Mang Xing", cursive;
   color: white;
   text-shadow: 2px 2px red;
+  font-size: 4rem;
 }
 
 /*! -----------------------------------------------------------------*/
@@ -211,9 +212,20 @@ hr {
     color: black;
     font-size: 2rem;
   }
+
+  .riverGear p {
+    text-align: center;
+    letter-spacing: 1.5rem;
+    margin-left: -100px;
+    margin-top: 90px;
+    font-family: "Zhi Mang Xing", cursive;
+    color: white;
+    text-shadow: 2px 2px red;
+    font-size: 2rem;
+  }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and(max-width: 1024px) {
   .titleHome p {
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -227,13 +239,14 @@ hr {
     color: white;
   }
 
-  .landing-grid {
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-  }
-
   .titleHome a {
     font-family: "Courier New", Courier, monospace;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .logoMobile img {
+    height: 50%;
+    width: 50%;
   }
 }

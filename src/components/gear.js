@@ -27,7 +27,7 @@ class Gear extends Component {
             </div>
             <hr></hr>
             <div className="riverGear">
-              <h1> CLOTHING & RIVER GEAR </h1>
+              <p> CLOTHING & RIVER GEAR </p>
             </div>
           </Cell>
           <Cell col={12} hidePhone hideTablet>

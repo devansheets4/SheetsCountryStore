@@ -36,7 +36,7 @@ class Landing extends Component {
 
           <Cell phone={12} tablet={12} hideDesktop id="mobileLogo">
             <div className="logoMobile">
-              <img src={logo}></img>
+              <img src={SheetsCircle}></img>
             </div>
           </Cell>
 
