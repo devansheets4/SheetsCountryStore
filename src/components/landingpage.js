@@ -7,8 +7,6 @@ import {
   FooterLinkList,
   Button
 } from "react-mdl";
-import logo from "../assets/logo.jpg";
-import Bridge from "../assets/Bridge.PNG";
 import SheetsCircle from "../assets/SheetsCircle.png";
 
 class Landing extends Component {

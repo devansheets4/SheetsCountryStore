@@ -204,13 +204,13 @@ hr {
 }
 
 .shirts img {
-  width: 80%;
+  width: 70%;
   height: 90%;
-  transform: rotate(90deg);
-  margin-bottom: 200px;
-  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-left: 80px;
   border-radius: 40px;
   box-shadow: 2px 2px 2px 2px red;
+  transform: rotate(90deg);
 }
 
 .shirts1 img {

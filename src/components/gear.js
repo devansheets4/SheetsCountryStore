@@ -7,6 +7,7 @@ import SheetsCircle from "../assets/SheetsCircle.png";
 import shirtrack from "../assets/shirtrack.jpg";
 import blackshirt from "../assets/blackshirt.jpg";
 import whiteshirt from "../assets/whiteshirt.jpg";
+import greysquare from "../assets/greysquare.jpg";
 import silipint from "../assets/silipint.PNG";
 
 import run1 from "../assets/run1.jpg";
@@ -44,37 +45,37 @@ class Gear extends Component {
 
           <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
-              <img src={blackshirt}></img>
+              <img src={greysquare}></img>
             </div>
           </Cell>
 
           <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
-              <img src={shirtrack}></img>
+              <img src={greysquare}></img>
             </div>
           </Cell>
 
           <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
-              <img src={whiteshirt}></img>
+              <img src={greysquare}></img>
             </div>
           </Cell>
 
           <Cell col={4} hideTablet hidePhone>
-            <div className="shirts1">
-              <img src={silipint}></img>
+            <div className="shirts">
+              <img src={greysquare}></img>
             </div>
           </Cell>
 
           <Cell col={4} hideTablet hidePhone>
-            <div className="shirts1">
-              <img src={run1}></img>
+            <div className="shirts">
+              <img src={greysquare}></img>
             </div>
           </Cell>
 
           <Cell col={4} hideTablet hidePhone>
-            <div className="shirts1">
-              <img src={run2}></img>
+            <div className="shirts">
+              <img src={greysquare}></img>
             </div>
           </Cell>
         </Grid>
