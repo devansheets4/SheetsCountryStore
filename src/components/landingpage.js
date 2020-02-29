@@ -24,10 +24,10 @@ class Landing extends Component {
           <Cell col={9} hidePhone hideTablet>
             <div className="titleHome">
               <p>
-                <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/gear">Outfitters</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/access">River Access</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/gear">Outfitters</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/deli">Deli</a> &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="/about">About</a>
               </p>
             </div>
