@@ -24,7 +24,7 @@ header .header-phone h3 {
   font-family: "Zhi Mang Xing", cursive;
   color: white;
 }
-/*! ----------------------End of Header-------------------------- */
+/*! ----------------------Background and Page Links-------------------------- */
 .landing-grid {
   background-image: url(./assets/Bridge.PNG);
   /* background-color: white; */
@@ -109,8 +109,10 @@ hr {
   width: 100%;
   height: fit-content;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
+
+/*! ----------------------About Page-------------------------- */
 
 .owners {
   width: 100%;
@@ -143,6 +145,7 @@ hr {
 #newriver {
   color: aqua;
 }
+/*! ----------------------Home Page-------------------------- */
 
 .logo {
   height: 40vh;
@@ -173,26 +176,11 @@ hr {
 
 .logoMobile img {
   height: 100%;
-  width: 75%;
-  margin-top: 110px;
+  width: 90%;
+  margin-top: 150px;
   margin-left: 50px;
 }
-
-.logo2 {
-  height: 75vh;
-  width: 98%;
-  margin-top: -5vh;
-}
-
-.logo2 img {
-  height: 100%;
-  width: 100%;
-}
-
-.menu {
-  background-color: white;
-  text-align: center;
-}
+/*! ----------------------River Gear / Outfitters Page-------------------------- */
 
 .riverGear p {
   text-align: center;
@@ -205,12 +193,26 @@ hr {
   font-size: 4rem;
 }
 
+.shirts {
+  width: 100%;
+  height: 100%;
+}
+
+.shirts img {
+  width: 80%;
+  height: 90%;
+  transform: rotate(90deg);
+  margin-bottom: 200px;
+  margin-left: 50px;
+  border-radius: 40px;
+}
+
 /*! -----------------------------------------------------------------*/
-/* footer {
+footer {
   width: 100%;
   height: min-content;
   position: sticky;
-} */
+}
 
 @media screen and (max-width: 1324px) {
   .titleHome a {

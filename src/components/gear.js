@@ -4,6 +4,9 @@ import hat from "../assets/hat.jpg";
 import shoes from "../assets/shoes.jpg";
 import soap from "../assets/soap.jpg";
 import SheetsCircle from "../assets/SheetsCircle.png";
+import shirtrack from "../assets/shirtrack.jpg";
+import blackshirt from "../assets/blackshirt.jpg";
+import whiteshirt from "../assets/whiteshirt.jpg";
 
 class Gear extends Component {
   render() {
@@ -32,6 +35,24 @@ class Gear extends Component {
           </Cell>
           <Cell col={12} hidePhone hideTablet>
             <hr></hr>
+          </Cell>
+
+          <Cell col={4} hideTablet phone={6}>
+            <div className="shirts">
+              <img src={blackshirt}></img>
+            </div>
+          </Cell>
+
+          <Cell col={4} hideTablet phone={6}>
+            <div className="shirts">
+              <img src={shirtrack}></img>
+            </div>
+          </Cell>
+
+          <Cell col={4} hideTablet phone={6}>
+            <div className="shirts">
+              <img src={whiteshirt}></img>
+            </div>
           </Cell>
         </Grid>
 
