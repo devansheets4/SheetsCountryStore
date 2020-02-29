@@ -149,7 +149,7 @@ hr {
   width: 100%;
 }
 .logoMobile {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin-top: -10vh;
 }
@@ -166,10 +166,16 @@ hr {
   font-weight: bold;
 }
 
-.logo img,
-.logoMobile img {
+.logo img {
   height: 100%;
   width: 100%;
+}
+
+.logoMobile img {
+  height: 100%;
+  width: 75%;
+  margin-top: 110px;
+  margin-left: 50px;
 }
 
 .logo2 {
@@ -241,12 +247,5 @@ hr {
 
   .titleHome a {
     font-family: "Courier New", Courier, monospace;
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .logoMobile img {
-    height: 50%;
-    width: 50%;
   }
 }

@@ -42,16 +42,16 @@ class Landing extends Component {
 
           <Cell phone={12} tablet={12} hideDesktop>
             <div className="mobileMenuHome">
-              <Button raised>
+              <Button raised colored>
                 <a href="/access">River Access</a>
               </Button>
-              <Button raised>
+              <Button raised colored>
                 <a href="/gear">River Gear</a>
               </Button>
-              <Button raised>
+              <Button raised colored>
                 <a href="/deli">Deli Menu</a>
               </Button>
-              <Button raised>
+              <Button raised colored>
                 <a href="/about">About Us</a>
               </Button>
             </div>
