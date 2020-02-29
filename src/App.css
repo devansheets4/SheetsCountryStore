@@ -86,7 +86,7 @@ header .header-phone h3 {
 .titleHome a {
   text-decoration: none;
   color: black;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 1px 1px white;
 }
 
@@ -104,8 +104,6 @@ hr {
   background-color: red;
   border: none;
 }
-/*! ----------------------End of Landing Page------------------------*/
-
 .secondary-grid {
   background: grey;
   width: 100%;
@@ -144,25 +142,6 @@ hr {
 
 #newriver {
   color: aqua;
-}
-
-.gear1,
-.gear2,
-.gear3 {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  margin: auto;
-}
-
-.gear1 img,
-.gear2 img,
-.gear3 img {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-  transform: rotate(90deg);
 }
 
 .logo {
@@ -204,11 +183,19 @@ hr {
   width: 100%;
 }
 
-/*! -----------------------------------------------------------------*/
-
 .menu {
   background-color: white;
   text-align: center;
+}
+
+.riverGear h1 {
+  text-align: center;
+  letter-spacing: 1.5rem;
+  margin-left: -100px;
+  margin-top: 90px;
+  font-family: "Zhi Mang Xing", cursive;
+  color: white;
+  text-shadow: 2px 2px red;
 }
 
 /*! -----------------------------------------------------------------*/
@@ -238,5 +225,11 @@ hr {
     text-align: right;
     font-family: "Courier New", Courier, monospace;
     color: white;
+  }
+
+  .landing-grid {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
   }
 }

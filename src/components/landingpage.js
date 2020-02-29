@@ -26,7 +26,7 @@ class Landing extends Component {
               <p>
                 <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
-                <a href="/gear">Gear</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/gear">Outfitters</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
                 <a href="/about">About</a>
               </p>

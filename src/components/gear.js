@@ -3,63 +3,35 @@ import { Grid, Cell, Footer, FooterSection, FooterLinkList } from "react-mdl";
 import hat from "../assets/hat.jpg";
 import shoes from "../assets/shoes.jpg";
 import soap from "../assets/soap.jpg";
+import SheetsCircle from "../assets/SheetsCircle.png";
 
 class Gear extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="secondary-grid">
-          <Cell col={12}>
-            <div className="title">
-              <h1>RIVER GEAR</h1>
+          <Cell col={3} hidePhone hideTablet>
+            <div className="logo">
+              <img src={SheetsCircle}></img>
+            </div>
+          </Cell>
+          <Cell col={9} hidePhone hideTablet>
+            <div className="titleHome">
               <p>
-                <a href="/">Home</a> | <a href="/access">River Access</a> |{" "}
-                <a href="/gear">Gear</a> | <a href="/deli">Deli</a> |{" "}
-                <a href="/about">About Us</a>
+                <a href="/">Home</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/access">River Access</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/gear">Outfitters</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/deli">Deli</a> &nbsp;&nbsp; | &nbsp;&nbsp;{" "}
+                <a href="/about">About</a>
               </p>
             </div>
-          </Cell>
-
-          <Cell col={3}>
-            <div className="gear1">
-              <img src={hat}></img>
+            <hr></hr>
+            <div className="riverGear">
+              <h1> CLOTHING & RIVER GEAR </h1>
             </div>
           </Cell>
-          <Cell col={3}>
-            <div className="gear2">
-              <img src={shoes}></img>
-            </div>
-          </Cell>
-          <Cell col={3}>
-            <div className="gear3">
-              <img src={soap}></img>
-            </div>
-          </Cell>
-          <Cell col={3}>
-            <div className="gear3">
-              <img src={hat}></img>
-            </div>
-          </Cell>
-
-          <Cell col={3}>
-            <div className="gear1">
-              <img src={shoes}></img>
-            </div>
-          </Cell>
-          <Cell col={3}>
-            <div className="gear2">
-              <img src={hat}></img>
-            </div>
-          </Cell>
-          <Cell col={3}>
-            <div className="gear3">
-              <img src={soap}></img>
-            </div>
-          </Cell>
-          <Cell col={3}>
-            <div className="gear3">
-              <img src={hat}></img>
-            </div>
+          <Cell col={12} hidePhone hideTablet>
+            <hr></hr>
           </Cell>
         </Grid>
 
