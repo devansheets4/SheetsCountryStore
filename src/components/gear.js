@@ -7,6 +7,10 @@ import SheetsCircle from "../assets/SheetsCircle.png";
 import shirtrack from "../assets/shirtrack.jpg";
 import blackshirt from "../assets/blackshirt.jpg";
 import whiteshirt from "../assets/whiteshirt.jpg";
+import silipint from "../assets/silipint.PNG";
+
+import run1 from "../assets/run1.jpg";
+import run2 from "../assets/run2.jpg";
 
 class Gear extends Component {
   render() {
@@ -36,6 +40,7 @@ class Gear extends Component {
           <Cell col={12} hidePhone hideTablet>
             <hr></hr>
           </Cell>
+          {/* ------------------------- End of Standard Header & Links----------------------------- */}
 
           <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
@@ -52,6 +57,24 @@ class Gear extends Component {
           <Cell col={4} hideTablet hidePhone>
             <div className="shirts">
               <img src={whiteshirt}></img>
+            </div>
+          </Cell>
+
+          <Cell col={4} hideTablet hidePhone>
+            <div className="shirts1">
+              <img src={silipint}></img>
+            </div>
+          </Cell>
+
+          <Cell col={4} hideTablet hidePhone>
+            <div className="shirts1">
+              <img src={run1}></img>
+            </div>
+          </Cell>
+
+          <Cell col={4} hideTablet hidePhone>
+            <div className="shirts1">
+              <img src={run2}></img>
             </div>
           </Cell>
         </Grid>

@@ -16,6 +16,8 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
+          {/* -------------------------Standard Header & Links----------------------------- */}
+
           <Cell col={3} hidePhone hideTablet>
             <div className="logo">
               <img src={SheetsCircle}></img>
@@ -33,6 +35,7 @@ class Landing extends Component {
             </div>
             <hr></hr>
           </Cell>
+          {/* ------------------------- Mobile Layout and Buttons----------------------------- */}
 
           <Cell phone={12} tablet={12} hideDesktop id="mobileLogo">
             <div className="logoMobile">
@@ -63,14 +66,16 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-        {/* <Footer size="mini">
+        {/* ------------------------- Footer----------------------------- */}
+
+        <Footer size="mini">
           <FooterSection type="left" logo="Sheets Country Store">
             <FooterLinkList>
               <a href="/">Help</a>
               <a href="/">Privacy & Terms</a>
             </FooterLinkList>
           </FooterSection>
-        </Footer> */}
+        </Footer>
       </div>
     );
   }
